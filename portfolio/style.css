@@ -1,0 +1,187 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans&family=Poppins:ital,wght@0,100;0,400;0,500;0,700;1,600&family=Roboto+Mono&family=Source+Code+Pro:ital,wght@1,300&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+.sidebar{
+   background-color: rgb(130, 109, 109);
+   /* width: 300px; */
+    font-family: 'Fira Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    height: 100vh;
+    border-bottom-right-radius: 33px;
+    border-top-right-radius: 33px;
+    transition: transform 0.3s ease-in;
+    position: absolute;
+     
+    
+}
+.sidebar nav{
+    padding: 72px;
+}
+.sidebar nav li{
+    list-style: none;
+    font-size: 30px;
+    padding:33px 0 ;
+}
+.sidebar nav li a{
+    text-decoration: none;
+    color: rgb(18, 17, 17);
+    font-weight: bold;
+}
+.main{
+   /* background-color: rgb(127, 110, 144); */
+    width: 85vw;
+    padding: 100px;
+    padding-top: 32px;
+}
+.container{
+    display: flex;
+    /*background-color: rgb(45, 47, 39);  */
+    background-image: url("mmmm.jpg");
+    
+}
+.infocontainer{
+   /* background-color: rgb(26, 114, 168); */
+   background-image: url("brkback.jpg");
+    height: 36vw;
+    width: 80vw;
+    margin:100px  auto;
+    justify-content:space-around;
+    display: flex;
+    border-radius: 33px;
+}
+.devinfo{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    font-family: 'Fira Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
+}
+.hello{
+    font-size: 33px;
+    color: beige;
+}
+.name{
+font-size: 50px;
+font-weight: bold;
+color: rgb(246, 244, 248);
+}
+.about{
+font-size: 28px;
+color: bisque;
+}
+.moreabout{
+    color: aliceblue;
+}
+.buttons{
+    margin-top: 11px;
+}
+.buttons button {
+padding: 11px;
+border-radius: 12px;
+color: white;
+background-color: blue;
+font-weight: bold;
+margin: 0 3px;
+cursor: pointer;
+text-decoration: none;
+}
+.buttons button:hover{
+    color: blue;
+    background-color: white;
+    text-decoration: none;
+}
+.divpic img {
+    height:  35vw;
+    border-radius: 322px;
+    border-inline-end-style: dashed;
+    border-width: 33px;
+    
+}
+
+.form{
+    text-align: center;
+    font-family: 'Fira Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-size: 35px;
+    font-weight: bold;
+    color: rgb(243, 17, 17);
+}
+.btn-primary{
+    padding: 9px;
+    cursor: pointer;
+    border-radius: 12px;
+    color: white;
+    background-color: blue;
+}
+.mb-3{
+    padding-top: 10px;
+    font-weight: bold;
+}
+.moreabout h3{
+    padding-top: 20px;
+}
+.form-text{
+    font-size: 10px;
+}
+.logo img{
+    border-radius: 122px;
+    width: 100px;
+    height: 50px;
+    padding-left: 10px;
+}
+.infocontainer2{
+     background-color: rgb(26, 114, 168); 
+    /* background-image: url("brkback.jpg"); */
+     height: 35vw;
+     width: 80vw;
+     margin:100px  auto;
+     justify-content:space-around;
+     display: flex;
+     border-radius: 33px;
+ }
+ .dis{
+    color: rgb(234, 29, 207);
+ }
+ .dis2{
+    color: aliceblue;
+ }
+ .sidebarGo{
+    transform: translate(-440px, 0px);
+    position: absolute;
+ } 
+ .burger{
+    position: absolute;
+    cursor: pointer;
+    top: 10px;
+    left: 10px;
+    margin-left: 10px;
+    border-radius: 2px;
+
+
+ }
+.hamb{
+  border-radius: 2px;
+
+}
+.crossb{
+    margin-left: 184px;
+    border-radius: 2px;
+
+}
+ @media (max-width: 1450px) {
+    *{
+    /*    background-color: red;  */    
+    }
+
+ .divpic{
+    display: none;
+ }
+ /* .sidebar{
+    transform: translate(-440px, 0px);
+    position: absolute;
+ } */
+
+}
+ 
